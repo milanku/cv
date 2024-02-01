@@ -39,16 +39,6 @@ const navigationItems: NavigationItem[] = [
 export default function Navbar() {
   return (
     <NavContainer>
-      {/* <HeadshotContainer> */}
-      {/* <Triangle /> */}
-      <Headshot>
-        <Image
-          src={"/imgs/headshot01-right-sm.png"}
-          width={900}
-          height={900}
-          alt="Milan Kubala"
-        />
-      </Headshot>
       <Nav>
         <ul>
           {navigationItems.map((navItem, index) => (

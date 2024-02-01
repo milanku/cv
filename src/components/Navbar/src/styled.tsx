@@ -22,7 +22,7 @@ export const Nav = styled.nav`
   ul {
     display: flex;
     flex-direction: row;
-    padding-left: 0;
+    padding-left: 40px;
     li {
       padding: 0 20px;
       color: white;

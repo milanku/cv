@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Socials from "@/components/Socials";
 import Footer from "@/components/Footer";
+import { Headshot } from "@/components/Navbar/src/styled";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,14 @@ export default function Home() {
       <Footer />
       <h1>Milan Kubala</h1>
       <p>Frontend Developer, redaktor, editor</p>
+      <Headshot>
+        <Image
+          src={"/imgs/headshot01-right-sm.png"}
+          width={900}
+          height={900}
+          alt="Milan Kubala"
+        />
+      </Headshot>
     </>
   );
 }
