@@ -1,12 +1,47 @@
 import { styled } from "styled-components";
 
+const headshot = {
+  size: {
+    PC: "80px",
+    M: "100px",
+  },
+};
+
+export const NavContainer = styled.div`
+  position: relative;
+
+  width: 100vw;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+`;
+
+export const Nav = styled.nav`
+  ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    li {
+      padding: 0 20px;
+      color: white;
+      list-style-type: none;
+      text-transform: uppercase;
+      font: 1em Source Sans Pro;
+    }
+  }
+`;
+
+export const HeadshotContainer = styled.div``;
+
 export const Headshot = styled.div`
-  width: 200px;
-  height: 200px;
+  margin: 20px;
+  width: ${headshot.size.PC};
+  height: ${headshot.size.PC};
+  border-radius: 100%;
   overflow: hidden;
-  border-radius: 200px;
   background: white;
-  display: none;
 
   img {
     width: 100%;
@@ -14,17 +49,9 @@ export const Headshot = styled.div`
   }
 `;
 
-export const Triangle = styled.div`
-  position: relative;
-  background-color: red;
-  width: 200px;
-  height: 200px;
-  border-radius: 100px 0 0 0;
-
-  &:before {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background-color: red;
+export const NavbarMail = styled.div`
+  a {
+    color: white;
+    font: 1em Source Sans Pro;
   }
 `;
