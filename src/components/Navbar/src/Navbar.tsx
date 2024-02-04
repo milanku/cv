@@ -1,10 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import {
-  NavContainer,
-  Nav,
-  NavbarMail,
-} from "./styled";
+import { NavContainer, Nav, NavbarMail } from "./styled";
+import Logo from "../../../assets/mk-logo.svg";
+import Link from "next/link";
 
 type NavigationItem = {
   text: string;
@@ -12,6 +10,10 @@ type NavigationItem = {
 };
 
 const navigationItems: NavigationItem[] = [
+  {
+    text: "Domov",
+    link: "/",
+  },
   {
     text: "O mne",
     link: "",
@@ -29,7 +31,7 @@ const navigationItems: NavigationItem[] = [
     link: "",
   },
   {
-    text: "",
+    text: "Kontakt",
     link: "",
   },
 ];
@@ -37,10 +39,13 @@ const navigationItems: NavigationItem[] = [
 export default function Navbar() {
   return (
     <NavContainer>
+      <Logo />
       <Nav>
         <ul>
           {navigationItems.map((navItem, index) => (
-            <li>{navItem.text}</li>
+            <li>
+              <Link href={navItem.link}>{navItem.text}</Link>
+            </li>
           ))}
         </ul>
       </Nav>

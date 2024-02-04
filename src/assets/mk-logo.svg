@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="682.03217"
+   height="729.96637"
+   viewBox="0 0 180.45434 193.13692"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="mk-logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="20"
+     fit-margin-left="20"
+     fit-margin-right="20"
+     fit-margin-bottom="20"
+     units="px"
+     inkscape:zoom="0.5"
+     inkscape:cx="307"
+     inkscape:cy="787"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     lock-margins="false"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <defs
+     id="defs2">
+    <rect
+       x="-19465.07"
+       y="-1045.6451"
+       width="327.39508"
+       height="221.22781"
+       id="rect13418" />
+    <rect
+       x="-20137.41"
+       y="-1059.2977"
+       width="772.29938"
+       height="358.07062"
+       id="rect2894" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1246">
+      <rect
+         style="fill:#d2b8b8;fill-opacity:0.461425;stroke-width:0.570442;stroke-linecap:round;stroke-dasharray:4.56353, 2.28177;paint-order:stroke fill markers"
+         id="rect1248"
+         width="1409.0784"
+         height="870.85834"
+         x="-4390.333"
+         y="-267.75577" />
+    </clipPath>
+    <rect
+       x="-19465.07"
+       y="-1045.6451"
+       width="327.39508"
+       height="221.22781"
+       id="rect13418-9" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(5221.5618,332.2285)">
+    <path
+       id="path29174"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:1.296;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m -5137.18,-322.92145 a 88.554527,88.554527 0 0 0 -68.494,32.6595 h 2.9569 a 86.181365,86.181365 0 0 1 65.5371,-30.28601 86.181365,86.181365 0 0 1 86.1813,86.1813 86.181365,86.181365 0 0 1 -86.1813,86.18131 86.181365,86.181365 0 0 1 -65.5371,-30.28601 h -2.9569 a 88.554527,88.554527 0 0 0 68.494,32.65899 88.554527,88.554527 0 0 0 88.5543,-88.55429 88.554527,88.554527 0 0 0 -88.5543,-88.55479 z" />
+    <g
+       aria-label="MK"
+       transform="matrix(4.7157527,0,0,4.7847435,85171.656,4691.1325)"
+       id="text13416-3"
+       style="font-size:26px;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';text-align:end;white-space:pre;shape-inside:url(#rect13418-9);fill:#ffffff;fill-opacity:0.148301;stroke:none;stroke-width:5;stroke-linecap:round;stroke-opacity:1;paint-order:stroke fill markers">
+      <path
+         d="m -19153.316,-1037.0983 h 2.615 q -0.216,4.0244 -0.216,7.6552 0,3.6309 0.216,7.7061 h -2.222 l 0.03,-13.5332 -4.152,13.5332 h -1.79 l -4.443,-13.5459 v 13.5459 h -1.435 l 0.127,-15.3613 h 3.072 q 0.254,0.9902 0.534,2.209 0.85,3.6943 1.79,6.0683 0.342,0.876 0.825,2.0186 0.495,1.1426 0.876,2.1074 z"
+         style="font-family:Rachana;-inkscape-font-specification:'Rachana, Normal';fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path27501" />
+      <path
+         d="m -19146.537,-1029.1891 q 4.964,-5.1163 7.287,-7.9092 h 1.485 l -4.976,5.5605 q 2.095,5.2178 5.459,9.7881 h -2.641 l -4.431,-8.0107 -2.183,2.3867 v 5.624 h -2.209 q 0.241,-4.1006 0.241,-7.8838 0,-3.7959 -0.241,-7.4648 h 2.209 z"
+         style="font-family:Rachana;-inkscape-font-specification:'Rachana, Normal';fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path27503" />
+    </g>
+  </g>
+</svg>
