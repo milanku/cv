@@ -40,12 +40,7 @@ export const Container = styled.div`
     width: 1px;
     color: white;
     background-color: #454545;
-    height: calc(50vh - 120px - 55px);
+    height: calc(50% - 70px);
   }
-  &::before {
-    height: calc(50vh - 120px - 55px);
-  }
-  &::after {
-    height: calc(50vh - 60px - 55px);
-  }
+  
 `;
