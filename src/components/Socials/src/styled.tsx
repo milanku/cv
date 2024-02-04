@@ -13,16 +13,23 @@ export const Container = styled.div`
   height: calc(100vh - 220px);
 
   a {
-    margin: 10px 0;
+    padding: 10px 2px;
     width: 30px;
     height: 30px;
     color: #a2a2a2;
+    transition: all 0.22s ease;
 
     &:first-of-type {
       margin-top: 20px;
     }
     &:last-of-type {
       margin-bottom: 20px;
+    }
+
+    &:hover {
+      width: 34px;
+      height: 34px;
+      padding: 8px 0;
     }
   }
 
