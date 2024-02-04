@@ -1,12 +1,5 @@
 import { styled } from "styled-components";
 
-const headshot = {
-  size: {
-    PC: "80px",
-    M: "100px",
-  },
-};
-
 export const NavContainer = styled.div`
   position: relative;
 
@@ -30,22 +23,6 @@ export const Nav = styled.nav`
       text-transform: uppercase;
       font: 1em Source Sans Pro;
     }
-  }
-`;
-
-export const HeadshotContainer = styled.div``;
-
-export const Headshot = styled.div`
-  margin: 20px;
-  width: ${headshot.size.PC};
-  height: ${headshot.size.PC};
-  border-radius: 100%;
-  overflow: hidden;
-  background: white;
-
-  img {
-    width: 100%;
-    height: auto;
   }
 `;
 

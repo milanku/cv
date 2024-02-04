@@ -7,6 +7,11 @@ const GlobalStyles = createGlobalStyle`
     height: 100%;    
     background-color: #101010;
   }
+  body {
+    background: url('/imgs/20513-back-pc.jpg');
+    background-size: cover;
+    background-position: left;
+  }
 
   #__next {
     position: relative;
