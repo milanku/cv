@@ -21,25 +21,46 @@ const PageContainer = styled.div`
   height: calc(100vh - 220px);
   padding-left: 120px;
 
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
 
   .text {
+    height: 220px;
+    padding-left: 250px;
+    padding-right: 60px;
+    border-radius: 110px;
+
     display: flex;
     flex-direction: column;
+    justify-content: center;
     color: white;
     font: 1.5em Source Sans Pro;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    h1,
+    p {
+      margin: 0;
+    }
   }
 `;
 
+const HeaderContainer = styled.div`
+  position: relative;
+`;
+
 const Headshot = styled.div`
-  margin: 20px;
+  margin: 0px;
   width: ${headshot.size.PC};
   height: ${headshot.size.PC};
   border-radius: 100%;
   overflow: hidden;
   background: white;
+
+  position: absolute;
+  left: 0;
+  top: 0;
 
   img {
     width: 100%;
@@ -59,18 +80,20 @@ export default function Home() {
       <Socials />
       <Footer />
       <PageContainer>
-        <div className="text">
-          <h1>Milan Kubala</h1>
-          <p>Frontend Developer, redaktor, editor</p>
-        </div>
-        <Headshot>
-          <Image
-            src={"/imgs/headshot01-right-sm.png"}
-            width={900}
-            height={900}
-            alt="Milan Kubala"
-          />
-        </Headshot>
+        <HeaderContainer>
+          <Headshot>
+            <Image
+              src={"/imgs/headshot01-right-sm.png"}
+              width={900}
+              height={900}
+              alt="Milan Kubala"
+            />
+          </Headshot>
+          <div className="text">
+            <h1>Milan Kubala</h1>
+            <p>React developer / Redaktor / Editor</p>
+          </div>
+        </HeaderContainer>
       </PageContainer>
     </>
   );
