@@ -1,9 +1,12 @@
 import { FooterContainer } from "./styled";
 
+import { Copy, Copyright } from "@styled-icons/boxicons-regular";
+
 export default function Footer() {
   return (
     <FooterContainer>
-      <span>2024 milankubala.sk</span>
+      <Copyright />
+      <span>milankubala.sk 2024</span>
     </FooterContainer>
   );
 }
